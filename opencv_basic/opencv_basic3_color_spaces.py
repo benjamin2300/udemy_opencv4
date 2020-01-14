@@ -11,7 +11,7 @@ grey_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 print (grey_image.shape)
 print (grey_image[100, 0])
 
-# 
+# hsv color space
 image = cv2.imread('images/shiki.jpg')
 hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
@@ -24,7 +24,7 @@ cv2.waitKey()
 cv2.destroyAllWindows()
 
 
-
+# bgr color space and merge
 image = cv2.imread('images/shiki.jpg')
 
 B, G, R = cv2.split(image)
@@ -47,7 +47,7 @@ cv2.destroyAllWindows()
 
 
 
-
+# r, g, b split image
 image = cv2.imread('images/shiki.jpg')
 
 B, G, R = cv2.split(image)
