@@ -13,3 +13,5 @@ img_transition = cv2.warpAffine(image, T, (width, height))
 cv2.imshow("Image Transition", img_transition)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+print (T)
