@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread("images/mikoto.jpg")
+image = cv2.imread("images/mikoto2.jpg")
 
 M = np.ones(image.shape, dtype="uint8") * 75
 
